@@ -1,0 +1,29 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 60px;
+}
+
+.label {
+  font-size: 30px;
+}
+.value {
+  text-align: center;
+  width: 50px;
+  margin-bottom: 10px;
+}
